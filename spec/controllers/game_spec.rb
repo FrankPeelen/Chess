@@ -14,4 +14,5 @@ describe Game do
 		it { expect(game.instance_variable_get(:@player1).name).to eql(player1_name) }
 		it { expect(game.instance_variable_get(:@player2).name).to eql(player2_name) }
 	end
+
 end
